@@ -1,0 +1,160 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: white;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 10px;
+  text-align: center;
+  background: black;
+  Font-family: "Times", serif;
+
+}
+
+.header h1 {
+  font-size: 50px;
+  color: white;
+  text-decoration-line: underline;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: black;
+
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  Font-family: Arial;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #ddd;
+  color: black;
+}
+.responsive {
+  width: 99%;
+  height: auto;
+  padding: 5px 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+.parallax, .parallaxx, .parallaxxx{
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.parallax {
+  background-image: url("https://thomas-blanchard.com/wp-content/uploads/2019/12/galaxy-gates-thomas-blanchard-video-artist-colors-ambiance-immersive-space-planets-stars-cosmos-1288px-2.jpg");
+  min-height: 100%;
+}
+
+.parallaxx {
+  background-image: url("https://thomas-blanchard.com/wp-content/uploads/2020/04/le-temps-et-lespace-thomas-blanchard-video-artist-galaxy-inks-planets-forms-slow-1288px-1.jpg");
+  min-height: 400px;
+}
+
+.parallaxxx{
+  background-image: url("https://bhibu.com/wp-content/uploads/2020/06/%C3%86DAN-EVOLUTION-by-Thomas-Blanchard-11.jpeg");
+  min-height: 100%;
+}
+.caption {
+  position: absolute;
+  left: 0;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: black;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: white;
+  text-align:center;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column {
+  -ms-flex: 24%; /* IE10 */
+  flex: 24%;
+  max-width: 24%;
+  padding: 0 4px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+
+
+
+
+
